@@ -14,3 +14,8 @@ You must create first .env or add to you secrets in Expo the `GOOGLE_MAPS_API_KE
 ```
   npm start
 ```
+
+## Demo
+
+Download Expo App in your phone
+Scan QR code in [published project page](https://expo.io/@nellaparedes/projects/dollaride) and open it in Expo App.
