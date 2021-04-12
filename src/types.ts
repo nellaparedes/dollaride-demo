@@ -25,3 +25,10 @@ export interface LocationSelectorProps {
   onFocus: () => void;
   onError: () => void;
 }
+export interface MapProps {
+  pickup: Location;
+  destination: Location;
+  onReady: () => void;
+  onError: () => void;
+  onUserLocationChange: (userLocation: MapUserLocation) => void;
+}
